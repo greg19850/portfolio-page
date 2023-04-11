@@ -1,0 +1,29 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+	// background-color: #f9f9f9;
+
+	.logo {
+		h3 {
+			text-transform: uppercase;
+			padding: 22px 30px;
+		}
+	}
+
+	.menu {
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: #f9f9f9;
+			padding: 22px 30px;
+			transition: 0.2s;
+
+			&:hover {
+				color: #facf0f;
+			}
+		}
+	}
+}
