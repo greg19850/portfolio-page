@@ -1,0 +1,83 @@
+.contact {
+	.socials {
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		left: 15px;
+		bottom: 140px;
+		background-color: rgba($color: #000, $alpha: 0.1);
+		padding: 15px 10px;
+		border: 1px solid #f9f9f9;
+		border-radius: 15px;
+
+		a {
+			display: block;
+			text-decoration: none;
+			color: #f9f9f9;
+			transition: 0.2s;
+
+			.github {
+				margin-top: 15px;
+			}
+
+			&:hover {
+				transform: translateY(-0.25em);
+			}
+
+			.social-icon {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+
+	.social-after-line {
+		position: fixed;
+		left: 35.5px;
+		bottom: 0;
+		width: 1px;
+		height: 140px;
+		background: linear-gradient(
+			180.3deg,
+			rgb(221, 221, 221) 5.5%,
+			rgb(110, 136, 161) 90.2%
+		);
+	}
+
+	.email {
+		position: fixed;
+		right: 15px;
+		bottom: 100px;
+		background-color: rgba($color: #000, $alpha: 0.2);
+		padding: 22px 12px;
+		border: 1px solid #f9f9f9;
+		border-radius: 15px;
+
+		a {
+			text-decoration: none;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+			color: #f9f9f9;
+			letter-spacing: 2px;
+			font-weight: 600;
+			transition: 0.2s;
+
+			&:hover {
+				transform: translateY(-0.25em);
+			}
+		}
+	}
+
+	.email-after-line {
+		position: fixed;
+		right: 36px;
+		bottom: 0;
+		width: 1px;
+		height: 100px;
+		background: linear-gradient(
+			180.3deg,
+			rgb(221, 221, 221) 5.5%,
+			rgb(110, 136, 161) 90.2%
+		);
+	}
+}

@@ -1,0 +1,110 @@
+.experience {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 20px auto;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+
+	// &::before {
+	// 	z-index: -1;
+	// 	content: '';
+	// 	position: absolute;
+	// 	background-image: url('../img/favpng_geometry-euclidean-vector.png');
+	// 	background-position: center;
+	// 	background-size: contain;
+	// 	// -webkit-filter: grayscale(1) invert(0.2);
+	// 	// filter: grayscale(1) invert(0.3);
+	// 	opacity: 0.6;
+	// 	top: 0px;
+	// 	right: 0px;
+	// 	bottom: 0px;
+	// 	left: 0px;
+	// }
+
+	.about-me {
+		display: flex;
+		align-items: center;
+		margin: 20px 0;
+
+		.img-container {
+			width: 120px;
+			height: 120px;
+			// border: 1px solid black;
+			// padding: 10px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-right: 20px;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.about-history {
+		margin: 10px 0;
+		padding: 20px;
+
+		h3 {
+			margin: 10px 0;
+		}
+
+		.about-section {
+			text-align: justify;
+			margin: 12px 0;
+		}
+	}
+
+	.work-history {
+		padding: 20px;
+
+		h3 {
+			margin-bottom: 10px;
+		}
+
+		.jobs-list {
+			list-style: none;
+
+			li.single-job-element {
+				display: flex;
+				flex-wrap: wrap;
+				margin-bottom: 20px;
+
+				p.job-date {
+					width: 30%;
+				}
+
+				.job-details {
+					width: 70%;
+
+					h4.job-name {
+						margin-bottom: 10px;
+					}
+
+					p.job-description {
+						text-align: justify;
+					}
+
+					ul.job-stack {
+						display: flex;
+						flex-wrap: wrap;
+						list-style: disc;
+						flex-basis: 100%;
+						// flex-grow: 1;
+						margin: 15px 0;
+
+						li {
+							font-size: 14px;
+							font-weight: 600;
+							color: #c8c8c8;
+							margin: 0 15px 5px 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

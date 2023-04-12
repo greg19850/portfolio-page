@@ -6,6 +6,7 @@ import Experience from './pages/Experience';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Socials from './components/Socials';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Socials />
     </div>
   );
 }

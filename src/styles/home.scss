@@ -8,23 +8,6 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	// background-image: url('../img/wavy.png');
-	// background-position: bottom;
-	// background-repeat: no-repeat;
-	// background-size: cover;
-	// -webkit-filter: grayscale(1) invert(1);
-	// filter: grayscale(1) invert(1);
-	// background: linear-gradient(to bottom, #f9f9f9 8px, transparent 4px) 100% 0,
-	// 	linear-gradient(to top, #f9f9f9 8px, transparent 4px) 0 100%,
-	// 	linear-gradient(to right, #f9f9f9 8px, transparent 4px) 0 100%,
-	// 	linear-gradient(to left, #f9f9f9 8px, transparent 4px) 100% 0;
-
-	// // background: #ece9e6;
-	// // background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
-	// // background: linear-gradient(to right, #ffffff, #ece9e6);
-
-	// background-repeat: no-repeat;
-	// background-size: 300px 300px;
 
 	&::before {
 		z-index: -1;
@@ -33,12 +16,12 @@
 		background-image: url('../img/wavy.png');
 		background-position: bottom;
 		background-size: cover;
-		-webkit-filter: grayscale(1) invert(0.2);
-		filter: grayscale(1) invert(0.2);
-		// opacity: 0.2;
+		// -webkit-filter: grayscale(1) invert(0.2);
+		// filter: grayscale(1) invert(0.3);
+		opacity: 0.6;
 		top: 0px;
 		right: 0px;
-		bottom: 0px;
+		bottom: -150px;
 		left: 0px;
 	}
 
@@ -64,7 +47,7 @@
 			color: #1d1d20;
 			font-size: 1rem;
 			font-weight: 600;
-			padding: 10px 50px;
+			padding: 10px 100px;
 			background-color: #facf0f;
 			border: none;
 			margin-right: 20px;

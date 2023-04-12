@@ -8,14 +8,12 @@ function Home() {
       <div className="text">
         <h1>Welcome</h1>
         {/* do zmiany */}
-        <p>My name is Greg, I'm developer based in Coentry, UK. I am proficient in JavaScript front-end, with it's frameworks like React, Vue, and back-end Node environment.</p>
-        <p>Most interesting about being a developer is chance for constant progress, hence I always look for ways to extend my knowledge and skills, currently I'm learnig Python and PHP.</p>
+        <p>My name is Greg, I am full-stack software developer based in Coentry, UK.</p>
+        <p> I always look for ways to extend my knowledge and skills, currently I'm learnig Python and PHP.</p>
       </div>
       <div className="links">
-        <Link to='/experience'>Experience</Link>
-        <Link to='/skills'>Skills</Link>
         <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
+        {/* <Link to='/contact'>Contact</Link> */}
       </div>
     </div>
   );
