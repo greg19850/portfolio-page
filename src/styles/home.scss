@@ -1,13 +1,26 @@
+@keyframes showTopText {
+	0% {
+		transform: translate(0, 100%);
+	}
+	40%,
+	60% {
+		transform: translate(0, 50%);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+@keyframes showBottomText {
+	0% {
+		transform: translate(0, -150%);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
 .home {
-	width: 90%;
-	margin: 80px auto 0;
-	padding: 100px 100px 130px 130px;
-	// padding-bottom: 130px;
-	height: 60vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+	// position: relative;
 
 	&::before {
 		z-index: -1;
@@ -16,45 +29,76 @@
 		background-image: url('../img/wavy.png');
 		background-position: bottom;
 		background-size: cover;
-		// -webkit-filter: grayscale(1) invert(0.2);
-		// filter: grayscale(1) invert(0.3);
-		opacity: 0.6;
+		-webkit-filter: grayscale(1) invert(0.3);
+		filter: grayscale(1) invert(0.3);
 		top: 0px;
 		right: 0px;
-		bottom: -150px;
+		bottom: 0px;
 		left: 0px;
 	}
 
-	.text {
-		h1 {
-			font-size: 110px;
-			font-weight: 400;
+	.home-content {
+		height: 58vh;
+		left: 8%;
+		position: absolute;
+		top: 30%;
+		width: 80vw;
+
+		.text {
+			height: 50%;
+			overflow: hidden;
+			position: absolute;
+			width: 100%;
+			div {
+				animation: showTopText 1s;
+				animation-delay: 0.5s;
+				animation-fill-mode: forwards;
+				bottom: 0;
+				transform: translate(0, 100%);
+
+				h1 {
+					font-size: 110px;
+					font-weight: 400;
+				}
+
+				p {
+					width: 65%;
+					padding: 10px;
+					text-align: justify;
+					border-left: 1px solid #f9f9f9;
+				}
+			}
 		}
 
-		p {
-			width: 70%;
-			padding: 10px;
-			text-align: justify;
-			border-left: 1px solid #f9f9f9;
-		}
-	}
+		.links {
+			height: 45%;
+			overflow: hidden;
+			position: absolute;
+			bottom: 0;
 
-	.links {
-		margin-top: 50px;
-		a {
-			display: inline-block;
-			text-decoration: none;
-			color: #1d1d20;
-			font-size: 1rem;
-			font-weight: 600;
-			padding: 10px 100px;
-			background-color: #facf0f;
-			border: none;
-			margin-right: 20px;
-			transition: 0.2s;
+			a {
+				display: inline-block;
+				text-decoration: none;
+				color: #f9f9f9;
+				font-size: 1rem;
+				font-weight: 900;
+				padding: 10px 100px;
+				margin-left: 10px;
+				background-color: rgba($color: #000000, $alpha: 0.1);
+				border: 2px solid #a2a6a8;
+				border-radius: 5px;
+				animation: showBottomText 0.5s;
+				animation-delay: 1.75s;
+				animation-fill-mode: forwards;
+				top: 15px;
+				transform: translate(0, -100%);
+				transition: 0.2s;
 
-			&:hover {
-				transform: translateY(-0.25em);
+				&:hover {
+					transform: translateY(-120px);
+					color: #facf0f;
+					border-color: #facf0f;
+				}
 			}
 		}
 	}

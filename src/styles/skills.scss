@@ -1,0 +1,48 @@
+.skills {
+	width: 50%;
+	margin: 100px auto;
+
+	&::before {
+		z-index: -1;
+		content: '';
+		position: absolute;
+		background-image: url('../img/wave3.png');
+		background-position: center;
+		background-size: cover;
+		// -webkit-filter: grayscale(1) invert(0.2);
+		// filter: grayscale(1) invert(0.3);
+		opacity: 0.6;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	h3 {
+		margin: 20px 0;
+	}
+
+	h4 {
+		margin: 10px 0;
+	}
+
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			display: block;
+			background-color: #f9f9f9;
+			color: #1a120b;
+			margin: 5px;
+			padding: 8px 15px;
+			border-radius: 10px;
+			font-weight: 600;
+
+			&:hover {
+				background-color: #facf0f;
+			}
+		}
+	}
+}
