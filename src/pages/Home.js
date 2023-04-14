@@ -10,10 +10,9 @@ function Home() {
       <div className="home-content">
         <div className="text top">
           <div>
-            <h1 className="span">Welcome</h1>
-            {/* do zmiany */}
-            <p className="span">My name is Greg, I am full-stack software developer based in Coentry, UK.</p>
-            <p className="span"> I always look for ways to extend my knowledge and skills, currently I'm learnig Python and PHP.</p>
+            <h1 className="span">Hello.</h1>
+            <p className="span">My name is Greg, I am software developer based in Coentry, UK.</p>
+            <p className="span"> My passions are technology, innovation, and self-develpment. I like turning ideas in real life products.</p>
           </div>
         </div>
         <div className="links bottom">

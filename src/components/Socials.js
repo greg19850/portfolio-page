@@ -26,13 +26,6 @@ const Socials = () => {
         </a>
       </div >
       <div className="social-after-line"></div>
-      {/* <div className="email">
-        <a href="mailto:greg19850@gmail.com" target="_blank" rel="noreferrer">
-          greg19850@gmail.com
-        </a>
-
-      </div>
-      <div className="email-after-line"></div> */}
     </div>
   );
 };

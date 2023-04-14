@@ -62,7 +62,11 @@ function Experience() {
           </li>
         </ul>
       </div>
-      <a className='resume' href={pdf} target="_blank" rel='noreferrer'>Check my Résumé</a>
+      <a className='cv-mobile' href={pdf} target="_blank" rel='noreferrer'>Check my Résumé</a>
+      <div className="cv-container">
+        <a className='cv-desktop' href={pdf} target="_blank" rel='noreferrer'>Check my Résumé</a>
+      </div>
+      <div className="cv-after-line"></div>
     </div>
 
   );
