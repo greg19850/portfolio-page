@@ -11,7 +11,7 @@ function Home() {
         <div className="text top">
           <div>
             <h1 className="span">Hello.</h1>
-            <p className="span">My name is Greg, I am software developer based in Coentry, UK.</p>
+            <p className="span">My name is Greg, I am software developer based in Coventry, UK.</p>
             <p className="span"> My passions are technology, innovation, and self-develpment. I like turning ideas in real life products.</p>
           </div>
         </div>

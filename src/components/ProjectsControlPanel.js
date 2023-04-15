@@ -1,6 +1,6 @@
-import '../styles/controlPanel.scss';
+import '../styles/projectsControlPanel.scss';
 
-function ControlPanel() {
+function ProjectsControlPanel() {
   return (
     <div className="control-panel">
       <button className="btn all">All</button>
@@ -18,4 +18,4 @@ function ControlPanel() {
   );
 }
 
-export default ControlPanel;
+export default ProjectsControlPanel;

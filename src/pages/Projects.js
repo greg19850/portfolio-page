@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import ControlPanel from "../components/ControlPanel";
+import ProjectsControlPanel from "../components/ProjectsControlPanel";
 import ProjectsContainer from "../components/ProjectsContainer";
 
 function Projects() {
@@ -10,7 +10,7 @@ function Projects() {
 
   return (
     <div className="projects">
-      <ControlPanel />
+      <ProjectsControlPanel />
       <ProjectsContainer />
     </div>
   );

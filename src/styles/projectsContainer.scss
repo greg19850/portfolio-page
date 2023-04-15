@@ -1,5 +1,13 @@
 .projects-container {
-	height: 80vh;
-	line-height: 80vh;
-	text-align: center;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
 }

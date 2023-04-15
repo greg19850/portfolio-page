@@ -10,13 +10,11 @@ import '../styles/navbar.scss';
 function Navbar() {
   return (
     <div className="navbar">
-      <Link to="/">
-        <div className="logo">
-          <div className="img-container">
-            <img src={logo} alt="" />
-          </div>
-          <h3>Greg Mrowczynski</h3>
+      <Link className="logo" to="/">
+        <div className="img-container">
+          <img src={logo} alt="" />
         </div>
+        <h3>Greg Mrowczynski</h3>
       </Link>
       <MenuDesktop />
       <MenuMobile />
