@@ -2,8 +2,8 @@ import '../styles/skills.scss';
 
 
 const languages = ['JavaScript', 'PHP (Basics)', 'Python (Basics)'];
-const frontEnd = ['HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'Python', 'PHP', 'SASS', 'Bootstrap'];
-const backEnd = ['Node', 'Express', 'MySQL', 'PostgreSQL', 'PHP', 'Postman', 'Insomnia', 'SuperTest'];
+const frontEnd = ['HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'SASS', 'Bootstrap'];
+const backEnd = ['Node', 'Express', 'MySQL', 'PostgreSQL', 'Postman', 'Insomnia', 'SuperTest'];
 const other = ['Poblem Solving', 'Agile', 'Pair Programming', 'Object Oriented Programming', 'Test Driven Development', 'Git', 'Github', 'Jest', 'Vercel', 'Heroku'];
 
 function Skills() {

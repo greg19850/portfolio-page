@@ -1,8 +1,18 @@
 .projects-container {
-	height: 50vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	h2 {
+		margin: 10px 0;
+	}
+
+	p.info {
+		font-size: 25px;
+		font-weight: 900;
+		margin-top: 100px;
+	}
 }
 
 @media screen and (max-width: 1024px) {

@@ -20,13 +20,13 @@ function MenuMobile() {
 
   return (
     <nav className="menu-mobile">
-      <div class={buttonActiveClass} id="toggle" onClick={handleMenuOpen}>
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
+      <div className={buttonActiveClass} id="toggle" onClick={handleMenuOpen}>
+        <span className="top"></span>
+        <span className="middle"></span>
+        <span className="bottom"></span>
       </div>
-      <div class={overlayOpenClass} id="overlay">
-        <nav class="overlay-menu">
+      <div className={overlayOpenClass} id="overlay">
+        <nav className="overlay-menu">
           <ul>
             <li><Link className="menu-item" to="/" onClick={handleMenuOpen}>Home</Link></li>
             <li><Link className="menu-item" to="/experience" onClick={handleMenuOpen}>Experience</Link></li>
