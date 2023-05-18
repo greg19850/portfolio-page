@@ -2,7 +2,7 @@ import mePhoto from '../img/my-photo.png';
 
 import '../styles/experience.scss';
 
-import pdf from '../img/Greg_Mrowczynski_CV.pdf';
+import pdf from '../img/Greg M CV_NC.pdf';
 
 function Experience() {
   return (
@@ -19,13 +19,10 @@ function Experience() {
       <div className="about-history">
         <h3>About</h3>
         <p className='about-section'>
-          I'm full-stack developer, who enjoys building dynamic, creative products from start to finish. I primarily work with front-end: JavaScript, React, Vue, but also have experience and knowledge of back-end side: Node.js, Express.js, with use of databases, like Mongo.db MySQL or PostgreSQL.
-        </p>
-        <p className='about-section'>
-          I moved to tech industry in 2022, previously working in various manufacturing roles, with last 4 years being Quality Engineer in automotive industry.
+          I'm full-stack developer, who enjoys building dynamic, creative products from start to finish. I primarily work with front-end: JavaScript, React, Vue, but also have experience and knowledge of back-end side: Python, Node.js, Express.js, with use of databases, like MySQL or PostgreSQL.
         </p>
         <p className='about section'>
-          In my opinion most interesting about being a developer is opportunity for constant progress, hence I'm using all my free time to learn new technologies and concepts, currently learning and practicing Python and PHP. Projects section will be soon upaded with my work exmples of these two languages.
+          In my opinion most interesting about being a developer is opportunity for constant progress, hence I'm keep learning new technologies and concepts, currently am very fascinated with Python and it's possibilities, I am developing my Python skills, and also learning PHP.
         </p>
       </div>
       <div className='work-history'>
@@ -35,7 +32,7 @@ function Experience() {
             <p className='job-date'>01/2023 - 04/2023</p>
             <div className="job-details">
               <h4 className='job-name'>Junior Software Developer - Northcoders</h4>
-              <p className='job-description'>Intensive industry focused bootcamp, which gave me opportunity to learn best practices in full-stack software development, in agile / pair programming environment. Course improved my problem solving skills, and ability to effectively work in a fast-paced high performance tech team.</p>
+              <p className='job-description'>Intensive industry focused bootcamp, which gave me opportunity to learn best practices in full-stack software development, in agile environment. Course improved my problem solving skills, and ability to effectively work in a fast-paced high performance tech team.</p>
               <ul className='job-stack'>
                 <li>JavaScript</li>
                 <li>React</li>
@@ -51,7 +48,7 @@ function Experience() {
             <p className='job-date'>02/2022 - 01/2023</p>
             <div className="job-details">
               <h4 className='job-name'>Freelance Front-End Web Developer</h4>
-              <p className='job-description'>I have worked on front-end web projects for clients, created websites by harnessing HTML, CSS and JavaScript skills. Constantly practicing by building small projects.</p>
+              <p className='job-description'>I have worked on front-end web projects for clients, created websites by applying HTML, CSS and JavaScript skills. Built over 10 personal projects.</p>
               <ul className='job-stack'>
                 <li>HTML</li>
                 <li>CSS</li>

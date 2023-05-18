@@ -15,7 +15,7 @@ const Socials = () => {
   return (
     <div className="contact">
       <div className="socials">
-        <a href="mailto:greg19850@gmail.com" target="_blank" rel="noreferrer">
+        <a href="mailto:gregmdev30@gmail.com" target="_blank" rel="noreferrer">
           {emailIco}
         </a>
         <a href="https://linkedin.com/in/greg-mrowczynski" target="_blank" rel="noreferrer">
