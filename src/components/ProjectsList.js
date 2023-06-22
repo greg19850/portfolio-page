@@ -2,28 +2,36 @@ import skinScan from "../img/projects/skin-scan.png";
 import ncNewsFront from "../img/projects/nc-news-front.png";
 import ncNewsBack from "../img/projects/nc-news-back.png";
 import hangman from "../img/projects/hangman.png";
-import slotMachine from "../img/projects/slot-machine-OOP.png";
 import cinemaBook from "../img/projects/cinema-ticket-booking.png";
-import mealFinder from "../img/projects/meal-finder-API.png";
-import rateExchange from "../img/projects/rate-exchange-calculator-API.png";
-import expenseTracker from "../img/projects/expense-tracker.png";
 import myPage from "../img/projects/Greg M Page.png";
+import faceDetect from "../img/projects/face-detect.png"
 
 
 const ProjectsList = [
   {
     id: 1,
+    link1: "https://face-detect-gm.netlify.app/",
+    link2: "https://github.com/greg19850/face_detection_app_fe",
+    img: faceDetect,
+    title: "Face Detection App",
+    language: ['JavaScript'],
+    stack: 'full-stack',
+    text: "Face Detection App is a full-stack application, which detects location of human faces in uploaded images, and outputs bounding boxes for all detected faces. Project back end also available on my Github page",
+    technologies: ['JavaScript', 'React.js', 'CSS', 'Tachyons CSS', 'Node.js', 'Express.js', 'PostgreSQL', 'Clarifai API'],
+  },
+  {
+    id: 2,
     link1: "https://main.d2lr9qljwqxiia.amplifyapp.com/",
     link2: null,
     img: skinScan,
     title: "Skin Scan",
     language: ['JavaScript', 'Python'],
     stack: 'full-stack',
-    text: "Skin Scan is Northcoders final project. This is a full-stack application, which offers a possibility to take a skin self-exam, and receive skin cancer risk assessment based on skin photograph.",
+    text: "Skin Scan is a full-stack application, which offers a possibility to take a skin self-exam, and receive skin cancer risk assessment based on photograph compared with database.",
     technologies: ['JavaScript', 'Vue.js', 'CSS', 'Node.js', 'Express.js', 'MySql Database', 'AWS Cloud Hosting', 'Python', 'Flask', 'PyTorch'],
   },
   {
-    id: 2,
+    id: 3,
     link1: "https://nc-news-xi.vercel.app/",
     link2: "https://github.com/greg19850/nc-news",
     img: ncNewsFront,
@@ -34,7 +42,7 @@ const ProjectsList = [
     technologies: ['JavaScript', 'React.js', 'CSS', 'Node.js', 'Express.js', 'PostgreSQL Database'],
   },
   {
-    id: 3,
+    id: 4,
     link1: "https://my-personal-page-gm.vercel.app/",
     link2: "https://github.com/greg19850/my-page",
     img: myPage,
@@ -45,7 +53,7 @@ const ProjectsList = [
     technologies: ['JavaScript', 'React.js', 'CSS'],
   },
   {
-    id: 4,
+    id: 5,
     link1: "https://nc-backend-project-nc-news.onrender.com/api",
     link2: "https://github.com/greg19850/nc-backend-project",
     img: ncNewsBack,
@@ -56,7 +64,7 @@ const ProjectsList = [
     technologies: ['JavaScript', 'Node.js', 'Express.js', 'PostgreSQL', 'Jest', 'SuperTest'],
   },
   {
-    id: 5,
+    id: 6,
     link1: "https://hangmann-game.netlify.app/",
     link2: "https://github.com/greg19850/Hangman",
     img: hangman,
@@ -67,7 +75,7 @@ const ProjectsList = [
     technologies: ["HTML5", "CSS", "JavaScript"]
   },
   {
-    id: 6,
+    id: 7,
     link1: "https://movie-tickets-booking-vert.vercel.app/",
     link2: "https://github.com/greg19850/Movie-Tickets-Booking",
     img: cinemaBook,

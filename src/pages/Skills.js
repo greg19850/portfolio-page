@@ -1,10 +1,10 @@
 import '../styles/skills.scss';
 
 
-const languages = ['JavaScript', 'Python', 'PHP (Basics)', 'TypeScript (Basics)'];
+const languages = ['JavaScript', 'Python', 'PHP', 'TypeScript (Basics)'];
 const frontEnd = ['HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'SASS', 'Bootstrap'];
-const backEnd = ['Python', 'Node', 'Express', 'MySQL', 'PostgreSQL', 'Postman', 'Insomnia'];
-const other = ['Poblem Solving', 'Agile', 'Pair Programming', 'Object Oriented Programming', 'Test Driven Development', 'Git', 'Github', 'unittest', 'Jest'];
+const backEnd = ['Python', 'Node', 'Express', 'PHP', 'MySQL', 'PostgreSQL', 'Postman', 'Insomnia'];
+const other = ['Poblem Solving', 'Agile', 'Pair Programming', 'Object Oriented Programming', 'Test Driven Development', 'Git', 'Github', 'Jest'];
 
 function Skills() {
   const langSkills = languages.map(element => <li key={element}>{element}</li>);
